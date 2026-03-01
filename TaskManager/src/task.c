@@ -122,7 +122,7 @@ void task_list_display(TaskList *list) {
         return;
     }
     // Print task
-    printf("ID | Name | Priority | Status | Due Date\n");
+    printf("\nID | Name | Priority | Status | Due Date\n");
     for (int i = 0; i < list->count; i++) {
         printf("%d | ", list->tasks[i].id);
         printf("%s | ", list->tasks[i].name);

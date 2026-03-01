@@ -28,7 +28,7 @@ static void trim_newline(char *text) {
 
 // Function to display the menu
 void display_menu(void) {
-    printf("===== Welcome to the Task Manager =====\n");
+    printf("\n===== Welcome to the Task Manager =====\n");
     printf("1. Add a new task\n");
     printf("2. Delete a task\n");
     printf("3. Mark a task as complete\n");
@@ -37,7 +37,7 @@ void display_menu(void) {
     printf("6. Search for a task\n");
     printf("7. Sort tasks by priority\n");
     printf("8. Sort tasks by due date\n");
-    printf("9. Exit\n\n");
+    printf("9. Exit\n");
 }
 // Function to run the UI loop
 void run_ui(TaskList *list) {
